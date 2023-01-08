@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #1B35C4;
+    --text-color: #4E4E4E;
+    --bg-color: #DADADA;
+    --bg-card-color: #F1F1F1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --bg-color: #1F1F1F;
+    --text-color: #DADADA;
+    --bg-card-color: #555555;
+}
+
+body.light {
+    --text-color: #4E4E4E;
+    --bg-color: #DADADA;
+    --bg-card-color: #F1F1F1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    padding: 0 1.5em;
+    background-color: var(--bg-card-color);
+}
+
+.switches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toogle-theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.toogle-theme__icon {
+    margin-right: 0.5em;
+    width: 30px;
+}
+
+.toogle-theme__text {
+    font-size: 0.8rem;
+}
