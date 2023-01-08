@@ -40,6 +40,7 @@ body.light {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 200px;
 }
 
 .toogle-theme {
@@ -56,4 +57,44 @@ body.light {
 
 .toogle-theme__text {
     font-size: 0.8rem;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    width: 100px;
+}
+
+.colors__items {
+    height: 20px;
+    width: 20px;
+    border: 1px solid var(--text-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.colors__items {
+    height: 20px;
+    width: 20px;
+    border: 1px solid var(--text-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.colors__items--blue {
+    --primary-color: #1B35C4;
+}
+
+.colors__items--red {
+    --primary-color: #DB0F0F;
+}
+
+.colors__items--green {
+    --primary-color: #28C31B;
+}
+
+.colors__items--purple {
+    --primary-color: #720EBA;
 }
