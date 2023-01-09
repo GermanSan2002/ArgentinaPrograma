@@ -130,6 +130,7 @@ body.light {
     .column--rigth {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, min-content);
+        align-items: start;
     }
 }
 
@@ -158,6 +159,7 @@ body.light {
 .card__title {
     margin: 0;
     font-size: 1.5rem;
+    margin-bottom: 1em;
 }
 
 .card__subtitle {
@@ -271,4 +273,26 @@ body.light {
     border: 2px solid var(--primary-color);
     border-radius: var(--border-radius);
     transition: var(--transicion);
+}
+
+.study__img {
+    max-width: 15%;
+    margin-right: 1em;
+}
+
+.study__time {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.study__name {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+    transition: var(--transicion);
+}
+
+.study__description {
+    font-size: 0.8em;
 }
